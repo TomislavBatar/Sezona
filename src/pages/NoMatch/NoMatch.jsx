@@ -3,9 +3,10 @@ import React, { Component } from 'react';
 export default class NoMatch extends Component {
 	render() {
 		return (
-			<div>
+			<React.Fragment>
 				<h1>404 err</h1>
-			</div>
+				<a href="/"> {'<<'} Nazad</a>
+			</React.Fragment>
 		);
 	}
 }

@@ -10,3 +10,28 @@
 .navigacija-pocetna-linkovi:hover {
 	text-decoration: underline;
 }
+.prijavi-se-dugme-navigacija-pocetna {
+	height: 30px;
+	font-size: 14px;
+	border: 2px solid #e5e5e6;
+	line-height: 15px;
+	background: #fff;
+	box-shadow: none !important;
+	transition: all .3s;
+}
+.prijavi-se-dugme-navigacija-pocetna:focus {
+	height: 30px;
+	font-size: 14px;
+	border: 2px solid #cdcdce;
+	line-height: 15px;
+	background: #fff !important;
+	box-shadow: none !important;
+}
+.prijavi-se-dugme-navigacija-pocetna:hover {
+	height: 30px;
+	font-size: 14px;
+	border: 2px solid #cdcdce;
+	line-height: 15px;
+	background: #fff;
+	box-shadow: none !important;
+}

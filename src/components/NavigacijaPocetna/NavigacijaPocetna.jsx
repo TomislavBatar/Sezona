@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Row, Col, Container } from 'react-bootstrap';
+import { Navbar, Nav, Row, Col, Container, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import './NavigacijaPocetna.css';
 
@@ -21,9 +21,12 @@ export default class NavigacijaPocetna extends Component {
 						</Navbar.Text>
 						<Navbar.Text>
 							<LinkContainer to="/aa">
-								<span className="navigacija-pocetna-linkovi text-dark" href="/">
+								<Button
+									className="prijavi-se-dugme-navigacija-pocetna text-dark"
+									variant="outline-secondary"
+								>
 									Prijavi se
-								</span>
+								</Button>
 							</LinkContainer>
 						</Navbar.Text>
 					</Container>

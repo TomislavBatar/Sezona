@@ -1,0 +1,55 @@
+.vertical-align-pretraga-pocetna {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* border: 1px dashed rgb(235, 235, 235); */
+}
+
+.logo-sezona-pretraga-pocetna-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	bottom: 33px;
+}
+.logo-sezona-pretraga-pocetna {
+	/* max-height: 50px; */
+}
+.lokacija-datum-input-pretraga-pocetna {
+	height: 55px;
+	border: 2px solid #e5e5e6;
+	outline: none;
+	box-shadow: none;
+	transition: all .3s;
+	font-size: 14px;
+}
+.lokacija-datum-input-pretraga-pocetna:focus {
+	height: 55px;
+	border: 2px solid #2264f3;
+	outline: none;
+	box-shadow: none;
+}
+
+.kad-gjde-pretraga-pocetna {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.kad-gjde-opis-pretraga-pocetna {
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.dugme-pretraga-pocetna {
+	height: 55px;
+	border-radius: 200px;
+	font-weight: 700;
+	background-color: #2264f3;
+	font-size: 14px;
+}
+.flex-dugme-pretraga-pocetna {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	top: -15px;
+}
