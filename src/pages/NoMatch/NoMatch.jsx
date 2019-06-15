@@ -4,8 +4,7 @@ export default class NoMatch extends Component {
 	render() {
 		return (
 			<div>
-				<br />
-				<p>NoMatch</p>
+				<h1>404 err</h1>
 			</div>
 		);
 	}

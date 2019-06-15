@@ -1,0 +1,12 @@
+.navigacija-pocetna {
+	height: 45px;
+	background-color: #fff;
+	border-bottom: 2px solid #f2f2f2;
+}
+.navigacija-pocetna-linkovi {
+	font-size: 14px;
+	cursor: pointer;
+}
+.navigacija-pocetna-linkovi:hover {
+	text-decoration: underline;
+}
