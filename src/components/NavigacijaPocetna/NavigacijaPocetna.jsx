@@ -9,7 +9,7 @@ export default class NavigacijaPocetna extends Component {
 			<React.Fragment>
 				<Navbar className="navbar-expand navigacija-pocetna navbar-dark justify-content-between">
 					<Container fluid>
-						<Navbar.Text>
+						<div>
 							<LinkContainer to="/aa">
 								<span className="navigacija-pocetna-linkovi text-dark mr-4">Postavi oglas</span>
 							</LinkContainer>
@@ -18,7 +18,7 @@ export default class NavigacijaPocetna extends Component {
 									Hitni oglasi
 								</span>
 							</LinkContainer>
-						</Navbar.Text>
+						</div>
 						<Navbar.Text>
 							<LinkContainer to="/aa">
 								<Button
