@@ -4,6 +4,9 @@
 	"homepage": "https://tomislavbatar.github.io/sezona",
 	"private": true,
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.19",
+		"@fortawesome/free-solid-svg-icons": "^5.9.0",
+		"@fortawesome/react-fontawesome": "^0.1.4",
 		"bootstrap": "^4.3.1",
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.6",
@@ -27,7 +30,16 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
-	}
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {}
 }

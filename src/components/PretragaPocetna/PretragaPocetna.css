@@ -46,7 +46,22 @@
 	font-weight: 700;
 	background-color: #2264f3;
 	font-size: 14px;
+	border: none;
+	transition: all .3s;
 }
+
+.dugme-pretraga-pocetna:hover {
+	background-color: #1a57db;
+	box-shadow: none !important;
+	border: none;
+}
+
+.dugme-pretraga-pocetna:focus {
+	box-shadow: none !important;
+	background-color: #1a57db;
+	border: none;
+}
+
 .flex-dugme-pretraga-pocetna {
 	display: flex;
 	flex-direction: column;

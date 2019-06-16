@@ -1,0 +1,27 @@
+.drzava-footer-pocetna {
+	background-color: #f8f9fa;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 1px solid #ebebeb;
+}
+.drzava-naslov-footer-pocetna {
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+.sub-footer-pocetna {
+	background-color: #f8f9fa;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.linkovi-sub-footer-pocetna {
+	font-size: 14px;
+	cursor: pointer;
+}
+.linkovi-sub-footer-pocetna:hover {
+	text-decoration: underline;
+}
+.copy-sub-footer-pocetna {
+	font-size: 14px;
+}
