@@ -18,13 +18,26 @@ export default class PretragaPocetna extends Component {
 										fluid
 									/>
 								</Col>
-								<Col lg={4}>
+								<Col lg={2} sm={6} xs={6}>
 									<Form.Group>
 										<Form.Label>
 											<span className="kad-gjde-pretraga-pocetna">Kada</span> <br />
-											<span className="kad-gjde-opis-pretraga-pocetna">dani koje bi radio</span>
+											<span className="kad-gjde-opis-pretraga-pocetna">trazim poslove od</span>
 										</Form.Label>
 
+										<Form.Control
+											className="lokacija-datum-input-pretraga-pocetna"
+											placeholder="First name"
+											type="date"
+										/>
+									</Form.Group>
+								</Col>
+								<Col lg={2} sm={6} xs={6} className="flex-do-datum-pretrga-pocetna">
+									<Form.Label>
+										<span className="kad-gjde-pretraga-pocetna" /> <br />
+										<span className="kad-gjde-opis-pretraga-pocetna">do datuma</span>
+									</Form.Label>
+									<Form.Group>
 										<Form.Control
 											className="lokacija-datum-input-pretraga-pocetna"
 											placeholder="First name"
